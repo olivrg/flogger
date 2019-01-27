@@ -2,7 +2,12 @@ import 'package:flutter/material.dart';
 
 import './product_manager.dart';
 
-void main() => runApp(FloggerApp());
+// import 'package:flutter/rendering.dart';
+
+void main() {
+  // debugPaintSizeEnabled = true;
+  runApp(FloggerApp());
+}
 
 class FloggerApp extends StatelessWidget {
   @override
